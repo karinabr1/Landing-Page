@@ -4,6 +4,10 @@ body {
 	background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
 }
 
+a {
+	text-decoration: none;
+}
+
 .header {
 	display: flex;
 	flex-direction: row;
@@ -73,10 +77,47 @@ button {
 	border-radius: 20px;
 }
 
+button:hover {
+	background-color: rgba(236, 214, 196, 0.53);
+	cursor: pointer;
+}
+
 .central-image {
 	height: 430px;
 }
 
+.secundary-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	margin-top: 48px: 
+}
+
+.h3-title {
+	border-top: 0.4px solid #FFF2E7;
+	padding-top: 48px; 
+	font-family: 'Righteous', cursive;
+	font-weight: 400;
+	font-size: 24px;
+	color: #FFF2E7;
+	margin-bottom: 16px;
+}
+
+.paragraphy {
+	font-family: 'sarala', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #FFF2E7;
+}
+
 .footer {
-	margin-top: 0.4px solid #FFF2E7;
+	padding: 32px;
+	border-top: 0.4px solid #FFF2E7;
+}
+
+.footer-image {
+	height: 48px;
+	display: block;
+	margin: 0 auto;
 }
